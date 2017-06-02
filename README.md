@@ -7,7 +7,7 @@ When I started out learning to use YARA and how to write rule files,
 I soon got to the point where I wanted to use rule-files which where already made by someone else. 
 In my particular case I wanted to use rules provided by this  repository https://github.com/Yara-Rules/rules/ - btw. many thanks for providing these rules !!!
 
-The problem was, there where many rulefiles and some of them where using filter criterias which could onle be provided using environment variables ( eg filepaths,etc ...) inside the rules. 
+The problem was, there where many rulefiles and some of them where using filter criterias which could only be provided using environment variables ( eg filepaths,etc ...) inside the rules. 
 Therefore the yara tool needed to be called multiple times for each file in particular. 
 
 That lead to 2 problems: 
