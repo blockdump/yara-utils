@@ -25,7 +25,7 @@ because I needed to provide the external variables ( eg the absolute filepath ) 
 
 At that point I started to think about a set of tools - which could tackle all the problems.
 
-first problem solution:
+first problem solution:  "MergeYaraRules" - tool
 -----------------------
 A tool which could merge an arbitrary number of yara rule files into 1 file. 
 Then it would be possible to just call yara only one time per file to be scanned. 
@@ -37,7 +37,7 @@ the yara "include" clause for just referencing the particular rule files.
 - It should be able to either treat all files in a directory as yara rules files ( and combining them ) or just use a given file-extension for filtering which files to be taken.
 
 
-second problem solution:
+second problem solution:  work still in progress - not finished yet
 ------------------------
 A tool for calling yara in parallel and providing all the needed external variables referenced in the yara rules. 
 - It should be able handle a list of external variables which it uses to call yara 
